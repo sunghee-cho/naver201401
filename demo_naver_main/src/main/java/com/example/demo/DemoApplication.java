@@ -24,6 +24,7 @@ public class DemoApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 		System.out.println("===부트 시작===");
+		System.out.println("===naver1 브랜치에서 추가===");
 	}
 
 	//생성된 bean 조회하는 로직 추가. 클래스 선언부 implements ... 추가!!!
