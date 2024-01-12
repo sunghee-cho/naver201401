@@ -26,7 +26,11 @@ public class DemoApplication implements CommandLineRunner {
 		System.out.println("===부트 시작===");
 		System.out.println("===naver1 브랜치에서 추가===");
 		System.out.println("===merge 이후 naver1 브랜치에서 또 추가===");
+//<<<<<<< HEAD
 		System.out.println("===merge 이후 naver1 브랜치에서 또 추가(conflict 발생 예상)===");
+//=======
+		System.out.println("===merge 이후 main 브랜치에서 또 추가(conflict 발생 예상)===");
+//>>>>>>> refs/remotes/origin/main
 	}
 
 	//생성된 bean 조회하는 로직 추가. 클래스 선언부 implements ... 추가!!!
