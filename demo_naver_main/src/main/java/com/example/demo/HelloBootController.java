@@ -14,7 +14,11 @@ String helloboot(){
 @RequestMapping("/helloajax")
 @ResponseBody	
 public String helloajax() {
+//<<<<<<< HEAD
+	System.out.println("merge 이후 naver1 브랜치에서 또 추가(conflict 발생 예상2)");
+//=======
 	System.out.println("merge 이후 main 브랜치에서 또 추가(conflict 발생 예상2)");
+//>>>>>>> refs/remotes/origin/main
 	return "{\"model\" : \"스프링 ajax 시작합니다\"}";
 }
 }
